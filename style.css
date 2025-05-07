@@ -1,0 +1,70 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans&display=swap');
+
+:root {
+	--colorUno:#006837;
+	--colorDos:#31a354;
+	--colorTres:#78c679;
+	--colorCuatro:#c2e699;
+	--colorCinco:#ffffcc;
+}
+body{
+	background: var(--colorUno);
+	text-align: center;
+	  font-family: "Lexend", sans-serif;
+	  font-optical-sizing: auto;
+  	  font-weight: <weight>;
+  	  font-style: normal;
+}
+
+h1{
+	font-size:calc(1rem + 2vw);
+	color: var(--colorUno);
+}
+
+p{
+	margin-left: 0.2rem;
+}
+
+a{
+	color: var(--colorDos);
+	transition: color ease .3s;
+}
+
+a:hover{
+	color: var(--colorTres);
+	transition: color ease .6s;
+}
+
+
+
+div.container{
+	width:min(800px,90%);
+	margin:0 auto;
+	padding:1rem;
+	background: var(--colorCinco);
+	text-align:left;
+}
+
+table, th, td{ 
+	font-size:100%; 
+	border-bottom: 1px solid #0f4c5c; 
+	border-collapse: collapse; 
+}
+            
+table{ 
+	width: 100%;
+	margin-bottom: 1rem; 
+}
+
+th,td{
+	padding:0.2rem;
+}
+
+th:nth-child(2), td:nth-child(2){
+	text-align: center;
+}
+
+#coso{
+	height: 50vh;
+}
